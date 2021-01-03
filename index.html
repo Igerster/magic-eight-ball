@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../main.css">
+  <script defer src="../eight-ball.js"></script>
+  <title>Magic Eight Ball</title>
+  </head>
 <body>
-   <h1>ThIS IS A NEW PROJECT</h1> 
+  <button class="button" onclick="userName(); userQuestion(); answer()">Click to begin</button>
+  <input type="button" value="Try Again!" onclick="document.location.reload(true)">
+  <p id="name"></p>
+  <p id="question"></p>
+  <h1 id="answer"></p>
+
 </body>
 </html>

@@ -1,0 +1,10 @@
+.button{
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1{
+    font-size:18vh;
+    font-family:comic-sans;
+  }
+  
